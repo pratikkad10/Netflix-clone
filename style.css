@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+  font-family: 'poppins', sans-serif;
+
+}
+
+.main {
+  background-image: url("asset/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  /* opacity: 20%; */
+  position: relative;
+}
+
+.box {
+  height: 80vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+.maintxt {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 62px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  z-index: 10;
+  gap: 23px;
+  
+  padding: 0 23px;
+}
+body{
+    background-color: black;
+}
+.maintxt> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+
+.maintxt> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.maintxt> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.maintxt :div{
+    padding: 24px 16px 8px;
+
+}
+
+nav {
+  max-width: 80vh;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+  color: red;
+}
+
+nav img {
+  color: red;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.separation{
+    height: 7px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+
+}
+
+.btn-red-sm{
+    background-color: red;
+    border-color: red;
+   border-radius: 0.25rem;
+    
+}
+
+.main input{
+    padding: 7px 101px 8px 14px;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    font-size: 12px;
+    background-color: rgba(23,23,23, 0.2);
+}
+
+.red-btn{
+   padding: 5px 12px;
+   border-color: red;
+   border-radius: 0.25rem;
+    background-color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.main-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
